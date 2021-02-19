@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">WhiteDoc</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_edad">Edad</string>
+    <string name="txt_cita">Cita</string>
+    <string name="txt_fecha">Fecha</string>
+    <string name="txt_fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="txt_hora">Hora</string>
+    <string name="hint_direccion">Dirección</string>
+    <string name="txt_siguiente">Siguiente</string>
+    <string name="txt_recordatorio">Recordatorio</string>
+    <string name="txt_especialidad">Especialidad</string>
+    <string name="txt_select_fecha">Seleccione la fecha</string>
+    <string name="txt_select_hora">Seleccione la hora</string>
+    <string name="password">Contraseña</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Iniciar Sesión</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Invalid username</string>
+    <string name="invalid_password">La contraseña debe tener al menos 5 caracteres</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="btnAgregarConsultorio">Agregar y Ubicar Consultorio</string>
+    <string name="btnIniciarSesion">Iniciar Sesión</string>
+    <string name="btnRegistrarse">Registrarse</string>
+    <string name="txtNoRegistrado">¿No estás registrado?</string>
+    <string name="btnCitaCliente">Pedir cita médica</string>
+    <string name="btnHistorialCliente">Ver citas</string>
+    <string name="btnMedCliente">Medicamentos</string>
+    <string name="btnSelecFoto">Seleccionar foto</string>
+    <string name="btnTomarFoto">Tomar foto</string>
+    <string name="btnPerfilCliente">Ver perfil</string>
+    <string name="btnEmergencia">EMERGENCIA</string>
+    <string name="btnDoctoresCliente">Doctores</string>
+    <string name="btn_pntPrincipalMedico_CitasAsig">Citas Programadas</string>
+    <string name="btn_pntPrincipalMedico_CitasXAcep">Aceptar Citas</string>
+    <string name="btn_pntPrincipalMedico_Horario">Horario de Atención</string>
+    <string name="btn_pntPrincipalMedico_Pacientes">Pacientes</string>
+    <string name="btn_pntPrincipalMedico_Perfil">Perfil</string>
+    <string name="btn_pntPrincipalMedico_Logout">Salir de la sesion</string>
+    <string name="contextDescripLogo">Logo de la aplicación</string>
+    <string name="txtComoTeLLamas">¿Cómo te llamas?</string>
+    <string name="imgDescripPerfilMedicoFoto">Es la foto de perfil del médico</string>
+    <string name="txtEspecialidadMedicoTitle">Especialidad</string>
+    <string name="txtNombreMedicoTitle">Nombre</string>
+    <string name="btnGuardarDatosPerfilMedico">Guardar</string>
+    <string name="txtNombreMedicoHint">Nombre del medico</string>
+    <string name="txtEspecialidadMedicoHint">Especialidad del medico</string>
+    <string name="txtFechNacMedicoHint">Fecha de Nacimiento</string>
+    <string name="txtFechaNacimientoMedicoTitle">Fecha de Nacimiento</string>
+    <string name="txtPerfiMedicoUbicacionConsultorio">Ubicacion Consultorio</string>
+    <string name="btnPerfilMedicoFotoEdit">Boton que se encarga de habilitar edicion de foto de perfil del medico</string>
+    <string name="btnPerfilMedicoNombreEdit">Boton que se encarga de habilitar edicion del nombre del medico</string>
+    <string name="btnPerfilMedicoEspecialidadEdit">Boton que se encarga de habilitar edicion de la especialidad del medico</string>
+    <string name="btnPerfilMedicoConsultorioEdit">Boton que se encarga de habilitar edicion del consultorio del medico</string>
+    <string name="btnPerfilMedicoFecNacEdit">Boton que se encarga de habilitar edicion de la fecha de nacimiento del medico</string>
+
+    <string name="txtNombrePacienteTitle">Nombre</string>
+    <string name="txtFechaNacPacienteTitle">Fecha de Nacimiento</string>
+    <string name="imgDescripcionFotoPaciente">Esta es la foto de perfil del paciente</string>
+    <string name="imgDescripcionBtnGaleria">Galeria para seleccionar foto de perfil</string>
+    <string name="imgDescripcionBtnEditar">Boton para activar el modificar campo de texto</string>
+    <string name="imgDescripcionBtnCamara">Camara para tomar foto de perfil</string>
+    <string name="txtNombrePacienteHint">Nombre del paciente</string>
+    <string name="txtFechaNacPacienteHint">Fecha de Nacimiento</string>
+    <string name="btnGuardarCambiosPaciente">Guardar Cambios</string>
+
+    <string-array name="spinner_registro">
+        <item>Paciente</item>
+        <item>Médico</item>
+    </string-array>
+
+    <string-array name="spinner_medicamento">
+        <item>Cada 4 horas</item>
+        <item>Cada 6 horas</item>
+        <item>Cada 8 horas</item>
+        <item>Cada 12 horas</item>
+        <item>Cada 24 horas</item>
+        <item>Cada 48 horas</item>
+        <item>Cada 72 horas</item>
+        <item>Una vez a la semana</item>
+        <item>Una vez cada 4 semanas</item>
+    </string-array>
+
+    <string name="title_activity_emergencia_usuario">Map</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="empezar">EMPEZAR</string>
+    <string name="cancelarlo">CANCELARLO</string>
+    <string name="btn_atenderEmergencias">ATENDER EMERGENCIAS</string>
+    <string name="title_activity_emergencias_medico">Map</string>
+    <string name="dejar_de_buscar">DEJAR DE BUSCAR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="escoge_un_medico">Escoge un medico</string>
+    <string name="title_activity_registro_pantalla_map">Map</string>
+    <string name="agregar_medicamento">Agregar Medicamento</string>
+    <string name="nombre_medicamento">Nombre:</string>
+    <string name="descripcion_medicamento">Descripción:</string>
+    <string name="guardar_medicamento">Guardar medicamento</string>
+    <string name="horario_medicamento">Horario:</string>
+    <string name="acepta_rechaza_citas">Acepta o Rechaza Citas</string>
+    <string name="titleMedCliente">Medicamentos</string>
+    <string name="btnAdd">+</string>
+    <string name="txtPeriodoMed">Periodo:</string>
+    <string name="txtPDosisMed">Primera dosis:</string>
+    <string name="txtDiaInicio">Dia de inicio:</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="guardar_cambios">Guardar Cambios</string>
+    <string name="eliminar_medicamento">Eliminar medicamento</string>
+</resources>
